@@ -16,11 +16,3 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      
-- name: GitHub Actions Demo
-  hosts: all
-  tasks: 
-
-  - name: Include role webserver
-    include_role:
-      name: webserver
