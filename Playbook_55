@@ -1,0 +1,7 @@
+  - name: GitHub Actions Demo
+     hosts: all
+     tasks: 
+
+  - name: Include role webserver
+    include_role:
+      name: webserver
